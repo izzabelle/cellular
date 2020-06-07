@@ -1,0 +1,11 @@
+[package]
+name = "cellular"
+version = "0.1.0"
+authors = ["Isabelle L. <me@izzabelle.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+offbrand = { path = "../offbrand" }
+anyhow = "1.0.31"
